@@ -24,7 +24,7 @@ class Config(object):
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5300021755').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002176855169)
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002176855169")
 
     #force subs
     try:
